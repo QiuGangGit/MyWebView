@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         WebSettings settings = webView.getSettings();
         //让webView支持JS
         settings.setJavaScriptEnabled(true);
-        //加载百度网页
+        //加载百度网页fgfgdf
         webView.loadUrl("http://www.baidu.com/");
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
